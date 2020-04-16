@@ -6,3 +6,5 @@ commands:
  1. npm install
  2. npm start
  3. go to browser and localhost:3000 if automatically app is not running on your browser after npm start
+ ![](public/snapshot.png)
+ 
