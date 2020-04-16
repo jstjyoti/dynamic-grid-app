@@ -1,0 +1,18 @@
+.App{
+  width: 60%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 20%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f17c2e;
+}
+.Container{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 0.5px solid #ff0000;
+}

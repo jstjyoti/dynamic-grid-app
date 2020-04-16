@@ -1,0 +1,6 @@
+.Cell{
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  border: 0.5px solid #000;
+}
