@@ -13,6 +13,8 @@ class App extends Component {
     let incCounter = this.state.count <= 100 ? this.state.count + 1 : 0,
       col = incCounter % 2 === 1 ? this.state.gridColumn + 1: this.state.gridColumn,
       row = incCounter % 2 === 0 ? this.state.gridRow + 1 : this.state.gridColumn;
+      col = this.state.count <= 100 ? col : 1;
+      row = this.state.count <= 100 ? row : 1;
 
     this.setState({
       count: incCounter,
